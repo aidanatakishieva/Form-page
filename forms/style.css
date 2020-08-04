@@ -1,0 +1,21 @@
+body {
+  background-image: url(Se4hJq.jpg);
+background-repeat: no-repeat;
+background-size: cover;  height: auto;
+  width: auto;
+  box-sizing: border-box;
+}
+.general-form {
+  height: 50%;
+  width: 50%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2%;
+}
+.form-group #passwordHelpBlock {
+  position: absolute;
+}
