@@ -1,21 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
 body {
   background-image: url(Se4hJq.jpg);
-background-repeat: no-repeat;
-background-size: cover;  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
   width: auto;
-  box-sizing: border-box;
+  
 }
-.general-form {
-  height: 50%;
-  width: 50%;
+main {
+  width: 70%;
+  margin-left: 15%;
 }
-.header {
+header {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
   margin-top: 2%;
 }
 .form-group #passwordHelpBlock {
   position: absolute;
 }
+
+
+@media only screen and (max-width: 762px) {
+ .address {
+ margin-top: 10%;
+  }
+}@media only screen and (max-width: 344px) {
+  .address {
+  margin-top: 22%;
+   }
+ }
+ @media only screen and (max-width: 768px) {
+ body{
+padding-top:20% ; 
+background-repeat: round;
+
+ }}
